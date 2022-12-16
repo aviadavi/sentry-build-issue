@@ -1,0 +1,24 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_OPTIONS=--openssl-legacy-provider webpack --mode production",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider webpack serve --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.2.0",
+    "terser-webpack-plugin": "^2.3.5",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@sentry/browser": "^7.27.0",
+    "@sentry/tracing": "^7.27.0"
+  }
+}
